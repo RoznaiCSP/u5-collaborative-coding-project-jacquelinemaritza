@@ -104,3 +104,4 @@ knight = sprites.create(img`
     ........................
     `, SpriteKind.Player)
 fleeFunction()
+pause(100)
