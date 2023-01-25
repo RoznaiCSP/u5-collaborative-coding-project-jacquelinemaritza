@@ -1,18 +1,1 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="wWWTkYiZT.IM#Ezw,pe`">mySprite</variable><variable type="KIND_SpriteKind" id="o(DQAmE9|^;[|#T:%Ym7">Player</variable><variable type="KIND_SpriteKind" id="FwiDI7eCHL{/bXMuIiE}">Projectile</variable><variable type="KIND_SpriteKind" id="9Fn~QrFz9J4JHG{cz}q]">Food</variable><variable type="KIND_SpriteKind" id="JSV2dR*YkrlFA}ul32P!">Enemy</variable></variables><block type="pxt-on-start" id="@KKAlaWS-WcNnQt34L7J" x="0" y="0"><comment pinned="false" h="123" w="162">Don't forget to comment your code as you work!</comment><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="T|kqz0$.C_-TY,y2rI$J"><value name="color"><shadow type="colorindexpicker" id="l0`6exb:?+.@ey52bF=8"><field name="index">3</field></shadow></value><next><block type="variables_set" id=";}Nq|@w+v)I$XC!u=R(8"><field name="VAR" id="wWWTkYiZT.IM#Ezw,pe`">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="~V1PcCjq5]T^:s9Oq2@V"><value name="img"><shadow type="screen_image_picker" id="K=C#JQs,/`#PaAo7#I5S"><field name="img">img`
-. . . . . . . . . . b 5 b . . . 
-. . . . . . . . . b 5 b . . . . 
-. . . . . . b b b b b b . . . . 
-. . . . . b b 5 5 5 5 5 b . . . 
-. . . . b b 5 d 1 f 5 d 4 c . . 
-. . . . b 5 5 1 f f d d 4 4 4 b 
-. . . . b 5 5 d f b 4 4 4 4 b . 
-. . . b d 5 5 5 5 4 4 4 4 b . . 
-. b b d d d 5 5 5 5 5 5 5 b . . 
-b d d d b b b 5 5 5 5 5 5 5 b . 
-c d d b 5 5 d c 5 5 5 5 5 5 b . 
-c b b d 5 d c d 5 5 5 5 5 5 b . 
-c b 5 5 b c d d 5 5 5 5 5 5 b . 
-b b c c c d d d 5 5 5 5 5 d b . 
-. . . . c c d d d 5 5 5 b b . . 
-. . . . . . c c c c c b b . . . 
-`</field><data>{"commentRefs":[],"fieldData":{"img":"K=C#JQs,/`#PaAo7#I5S"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="4W/3t.*,sWKc4Xm;sYhf"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></statement></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="wWWTkYiZT.IM#Ezw,pe`">mySprite</variable><variable type="KIND_SpriteKind" id="o(DQAmE9|^;[|#T:%Ym7">Player</variable><variable type="KIND_SpriteKind" id="FwiDI7eCHL{/bXMuIiE}">Projectile</variable><variable type="KIND_SpriteKind" id="9Fn~QrFz9J4JHG{cz}q]">Food</variable><variable type="KIND_SpriteKind" id="JSV2dR*YkrlFA}ul32P!">Enemy</variable></variables><block type="pxt-on-start" id="@KKAlaWS-WcNnQt34L7J" x="0" y="0"><comment pinned="false" h="123" w="162">Don't forget to comment your code as you work!</comment></block></xml>
