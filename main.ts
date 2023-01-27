@@ -1,3 +1,4 @@
+
 // Don't forget to comment your code as you work!
 game.splash("A journey of a night who comes to an adventure encountering with a dragon ")
 let knight = sprites.create(img`
