@@ -1,6 +1,18 @@
+function battleFunction () {
+	
+}
+function killFunction () {
+    let dragon: Sprite = null
+    knight.sayText("Now, I'll save my people from this terror!")
+    dragon.sayText("I'll burn you all!")
+    while ((0 as any) > (1 as any)) {
+        battleFunction()
+    }
+}
 // Don't forget to comment your code as you work!
+let knight: Sprite = null
 game.splash("A journey of a night who comes to an adventure encountering with a dragon ")
-let knight = sprites.create(img`
+knight = sprites.create(img`
     ......ffff..............
     ....fff22fff............
     ...fff2222fff...........

@@ -2,7 +2,9 @@
     "name": "U5 Collaborative Coding Project",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "controller": "*",
+        "animation": "*"
     },
     "files": [
         "main.blocks",
