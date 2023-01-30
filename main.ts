@@ -71,7 +71,7 @@ let knight = sprites.create(img`
     ........................
     `, SpriteKind.Player)
 // We set a position so the sprites don't over lap
-knight.setPosition(70, 99)
+knight.setPosition(80, 99)
 // We added a background to where the first scene takes place
 scene.setBackgroundImage(img`
     7777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777
@@ -282,3 +282,20 @@ pause(1000)
 character1.setPosition(120, 99)
 pause(1000)
 character1.setPosition(110, 99)
+knight.sayText("What is all the commotion in the village?", 4000, true)
+pause(5000)
+character1.sayText("One of the villagers found a cave", 5000, true)
+pause(5000)
+character1.sayText("They found a sleeping dragon inside", 5000, true)
+pause(5000)
+character1.sayText("Everyone is in fear and wanting to leave", 4000, true)
+pause(4000)
+knight.sayText("Shall not worry no more", 2000, true)
+pause(3000)
+knight.sayText("I will investigate and stop the fear", 3000, true)
+pause(3000)
+knight.sayText("Where is the cave", 3000, true)
+pause(4000)
+character1.sayText("Its near the end of the forest heading to the other side  ", 5000, true)
+pause(5000)
+character1.sayText("Safe travle", 2000, true)
